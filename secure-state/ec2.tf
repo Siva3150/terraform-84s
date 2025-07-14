@@ -12,7 +12,7 @@ resource "aws_instance" "secure_state" {
 
 
 resource "aws_security_group" "allow_all_dev" {
-name = "allow_all_new"
+name = "allow_all_dev"
 description = "allows traffic from all ports"
     
 
