@@ -1,10 +1,10 @@
-resource "aws_instance" "secure_state" {
+resource "aws_instance" "secure_state_dev" {
     instance_type = "t3.micro"
     ami = "ami-09c813fb71547fc4f"
     vpc_security_group_ids = [aws_security_group.allow_all_dev.id]
 
     tags = {
-        name = "roboshop"
+        name = "roboshop-secure-state"
     }
 }
 
