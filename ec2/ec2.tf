@@ -1,5 +1,5 @@
 resource "aws_instance" "roboshop" {
-    instance_type = "t3.micro"
+    instance_type = "t3.small"
     ami = "ami-09c813fb71547fc4f"
     vpc_security_group_ids = [aws_security_group.allow_all.id]
 

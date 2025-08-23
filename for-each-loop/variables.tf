@@ -57,11 +57,11 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z03672276PNJXQMW5BRF"
+    default = "Z07771633R956JE564RLG"
 }
 
 variable "domain_name" {
-    default = "sivadevops.fun"
+    default = "sivadevops.space"
 }
 
 
